@@ -3,10 +3,6 @@ namespace CarLotSimulator
 {
     public class Car
     {
-        public Car()
-        {
-
-        }
         public Car(
             int year,
             string model,
