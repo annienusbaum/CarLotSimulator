@@ -3,6 +3,14 @@ namespace CarLotSimulator
 {
     public class Car
     {
+        public Car()
+        {
+            CarLot.numberOfCars++;
+            // ClassName.StaticMember
+            // this increments the static field, numberOfCars,
+            // by 1 everytime I create a new car
+        }
+
         public Car(
             int year,
             string model,
@@ -39,3 +47,6 @@ namespace CarLotSimulator
         }
     }
 }
+
+
+// a car class gets created in the constructor of the car class.
